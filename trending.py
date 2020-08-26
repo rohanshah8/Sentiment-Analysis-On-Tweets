@@ -9,7 +9,7 @@ warnings.filterwarnings("ignore")
 
 
 def find_trending():
-	log = pd.read_csv("C:\\Users\\Rohan\\Desktop\\Sentiment-Analysis\\Login.csv")
+	log = pd.read_csv("C:\\Users\\Rohan\\Desktop\\Sentiment-Analysis\\Login.csv") // login.csv contain all keys in comma separeted form
 	consumerKey = log["key"][0]
 	consumerSecret = log["key"][1]
 	accessToken = log["key"][2]
