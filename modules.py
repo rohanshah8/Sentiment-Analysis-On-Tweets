@@ -60,7 +60,7 @@ def do_work(keyword):
 
 log = pd.read_csv("C:\\Users\\Rohan\\Desktop\\Sentiment-Analysis\\Login.csv")
 
-consumerKey = log["key"][0]
+consumerKey = log["key"][0] // edit your key secret token here
 consumerSecret = log["key"][1]
 accessToken = log["key"][2]
 accessTokenSecret = log["key"][3]
