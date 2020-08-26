@@ -4,4 +4,4 @@ search tweets by specific query
 Find Trending Topics
 see presentation for it.
 
-We are using Flask,python,pandas,sklearn,matplotlib,pickle,html etc.
+We are using Flask , python , pandas , sklearn , matplotlib , pickle , html etc.
